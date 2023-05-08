@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="lindex.js"></script>
+
+
+
+    <style>
+
+body{
+    background-image: linear-gradient(#f5f2ff,#2c29a4);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw; 
+}
+
+        .box {
+
+            height: 40vw;
+            width: 40vw;
+            background: url(1.png) no-repeat;
+            border: 59px solid transparent ;
+            background-size: 100%;
+            margin: auto;
+            position: relative;
+            border-image: url(border.png) 30% round;
+  border-image-width: 40px;
+        }
+
+
+        .hour {
+            height: 26%;
+            width: 1.7%;
+            background-color: #191501;
+            border-radius: 9px;
+            position: absolute;
+            top: 23%;
+            left: 49.5%;
+            opacity: 0.8;
+            transform-origin: bottom;
+
+
+        }
+
+
+ 
+
+        .min
+        {
+            /* display: none; */
+            height: 32%;
+            width: 1.5%;
+            background-color: rgb(221, 12, 12);
+            border-radius: 9px;
+            position: absolute;
+            top: 18%;
+            left: 49.5%;
+            opacity: 0.8;
+            transform-origin: bottom;
+
+
+        }
+
+
+        .sec {
+
+            height: 41%;
+            width: 1.5%;
+            background-color: black;
+            border-radius: 9px;
+            position: absolute;
+            top: 10%;
+            left: 49.5%;
+            opacity: 0.8;
+            transform-origin: bottom;
+            /* display: none; */
+
+        }
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+
+    <div class="box">
+
+        <div id="hour" class="hour">
+
+        </div>
+        <div id="min" class="min">
+
+        </div>
+        <div id="sec" class="sec">
+
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
